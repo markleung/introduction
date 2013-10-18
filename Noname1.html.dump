@@ -1,230 +1,17 @@
-<!--sdsdsd-->
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML>
 <html>
  <head>
-  <title> guerrilla </title>
-   <!--[if lte IE 6]>
-<script src="DD_belatedPNG_0.0.8a.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        DD_belatedPNG.fix('div, ul, img, li, input , a');
-    </script>
-<![endif]-->       <!--解决ie6PNG图透明问题-->
-  <style type="text/css">
-	html,body,div,span,h1,h2,h3,h4,h5,h6,p,pre,a,dd,dl,dt,li,ol,ul,table,tr,th,td {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font: 16px Helvetica, Arial,sans-serif;
-	text-align:left;
-	}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-	}
-ol,ul{
-	list-style: none;
-	}
-img{
-	border:0;
-}
-a{
-	text-decoration:none;
-}
-
-/*----------------------------------------------------------------------------------*/
-
-	body{
-		background-color:#000;
-		background:url(bg_website.png);
-	}
-	.header{
-		background:url(bg_header.png) no-repeat top center;
-		position:relative;
-		z-index:2;
-		width:100%;
-		height:100px;
-	}
-	.wrapper{
-		width:960px;
-		margin:0 auto;
-		overflow:hidden;
-	}
-	h1{
-		float:left;
-		padding:10px;
-		margin: 10px 0;
-	}
-	h1 a{
-		display:block;
-		text-indent:-999px;
-		background:url(logo.png);
-		width:300px;
-		height:50px;
-	}
-	#nav{
-		float:right;
-		height:70px;
-		margin:10px;
-		display:inline;
-	}
-	#nav li{
-		float:left;
-		line-height:70px;
-		margin:0 20px;
-		display:inline;
-		}
-	#nav li a{
-	line-height:70px;
-		font-weight:bold;
-		color:#666;
-		font-size:16px;
-	}
-	#nav li a:hover{
-		color:#eb6841;	
-	}
-
-
-
-	.intro{
-		background:url(bg_intro.jpg) no-repeat center top;
-		width:100%;
-		height:600px;
-		margin-top:-20px;
-		margin-bottom:60px;
-		padding:60px 0;
-	}
-	.intro p{
-		color:white;
-		text-align:center;
-		margin: 12px 0;
-		padding: 0;
-		font-size: 68px;
-		line-height: 58px;
-	}
-	#work{
-		margin-bottom:90px;	
-	}
-	.row{
-		margin-bottom:50px;
-		text-align:center;
-	}
-	.row a{
-		margin-right:15px;	
-	}
-
-	#about{
-		margin-bottom:90px;
-		overflow:hidden;
-	}
-	.aboutInfo{
-		float:left;
-		width:600px;
-	}
-	.aboutPic{
-		float:right;
-		margin:30px;
-	}
-	.aboutInfo h2{
-		color: #00A8C6;
-		font-size: 36px;
-		line-height: 36px;
-		margin: 12px 0;
-		padding: 12px 0;	
-	}
-	.aboutInfo p{
-		margin: 12px 0;
-		padding: 0;
-		font-size:16px;
-		color: #666;
-		line-height:24px;
-	}
-	#contact{
-		clear:both;
-		overflow:hidden;
-		margin-bottom:90px;
-	}
-	.contactInfo{
-		float:left;
-		width:300px;
-	}
-	.contactInfo h2{
-		color: #00A8C6;
-		font-size: 36px;
-		line-height: 36px;
-		margin: 12px 0;
-		padding: 12px 0;		
-	}
-	.contactInfo p{
-		margin: 12px 0;
-		padding: 0;
-		font-size:16px;
-		color: #666;
-		line-height:24px;	
-	}
-	.contactForm{
-		float:left;
-		width:620px;
-		padding:20px 10px 10px 10px;
-	}
-	.contactForm .form_input{
-		background: rgba(255, 255, 255, 0.5);
-		border: 1px solid #CFBEA6;
-		float: left;
-		margin: 10px;
-		padding: 10px;
-		width: 268px;	
-	}
-	.contactForm .form_textarea{
-		background: rgba(255, 255, 255, 0.5);
-		border: 1px solid #CFBEA6;
-		float: left;
-		margin: 10px;
-		padding: 10px;
-		width: 578px;
-		height:160px;
-	}
-	.contactForm .form_submit{
-	background: #EB6841;
-	border: 1px solid #EB6841;
-	color: #F1F1F1;
-	font-size: 20px;
-	margin: 10px;
-	padding: 10px;
-	text-align: center;
-	width: 600px;
-	}
-
-	#footer{
-		clear:both;
-		margin-top:100px;
-		height:100px;
-		background:url(bg_footer.png) bottom center no-repeat;
-	}
-	#footer p{
-		padding:10px;
-		margin:10px 0;
-		line-height:60px;
-		font-size:16px;
-		font-weight:bold;
-		color:#ddd;
-	}
-  </style>
+ 	<meta charset="utf-8">
+	<title>ineedAjob</title>
+	<link rel="stylesheet" href="css/myreset.css" />
+	<link rel="stylesheet" href="css/main.css" />
  </head>
-
-
 
 
  <body>
 	<div class="header">
-		<div class="wrapper">
-				<h1><a href="#">guerrilla</a></h1>
-			<div id="nav">
-				<ul>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Work</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</div>
+		<div class="wrapper clearfix">
+			<h1><a href="#">ineedAjob</a></h1>
 		</div>
 	</div>
 
@@ -232,37 +19,38 @@ a{
 	<div class="intro">
 		<div class="wrapper">
 			<div class="word">
-			<p>My name is <strong>Mark Leung</strong>.</p>
-			<p>I love <strong>Running </strong>at dark night</p>
-			<p>every time i run <strong>alone</strong></p>
-			<p>I feel like <strong>A Hero</strong></p>
+				<p>My name is <strong>Mark Leung</strong>.</p>
+				<p>I love <strong>Running </strong>at dark night</p>
+				<p>every time i run <strong>alone</strong></p>
+				<p>I feel like <strong>A Hero</strong></p>
 			</div>
 		</div>
 	</div>
 
 
 	<div id="work"class="wrapper">
+		<h2 class="mywork">My works</h2>
 		<div class="row">
-			<a href="#"><img src="work_mayhem-monkeys.png" /></a>
-			<a href="#"><img src="work_aktruong.png" /></a>
-			<a href="#"><img src="work_broward-saves.png" /></a>
+			<a href="#"><img src="images/work_mayhem-monkeys.png" /></a>
+			<a href="#"><img src="images/work_aktruong.png" /></a>
+			<a href="#"><img src="images/work_broward-saves.png" /></a>
 		</div>
 		<div class="row">
-			<a href="#"><img src="work_contenzio.png" /></a>
-			<a href="#"><img src="work_ms-feng-shui.png" /></a>
-			<a href="#"><img src="work_welcome-to-adulthood.png" /></a>
+			<a href="#"><img src="images/work_contenzio.png" /></a>
+			<a href="#"><img src="images/work_ms-feng-shui.png" /></a>
+			<a href="#"><img src="images/work_welcome-to-adulthood.png" /></a>
 		</div>
 		<div class="row">
-			<a href="#"><img src="work_mayhem-monkeys.png" /></a>
-			<a href="#"><img src="work_aktruong.png" /></a>
-			<a href="#"><img src="work_broward-saves.png" /></a>
+			<a href="#"><img src="images/work_mayhem-monkeys.png" /></a>
+			<a href="#"><img src="images/work_aktruong.png" /></a>
+			<a href="#"><img src="images/work_broward-saves.png" /></a>
 		</div>
 	</div>
 
 	<div id="about">
 		<div class="wrapper">
 		<div class="aboutInfo">
-			<h2>Majored in <strong>Webpage Development</strong></h2>
+			<h2 class="aboutme">about me</h2>
 			<p> Hey! My name is <strong>Mark Leung</strong>. I am a 21 year old student who is cracy about <strong>webpage development</strong>. i have learnt webpage development for several months. i am trying to practice my knowledge.</p>
 			<p>i hope i can be a great <strong>Webpage Development engineer</strong> in my future. yeah!!</p>
 		</div>
@@ -275,7 +63,7 @@ a{
 	<div id="contact">
 		<div class="wrapper">
 			<div class="contactInfo">
-				<h2>To <strong>get in touch</strong></h2>
+				<h2 class="contactme">contact me</h2>
 				<p>I enjoy working with someone who has <strong>passion in life</strong>.You can e-mail me here :Email:liang702352512@gmail.com i am waiting for your respond</p>
 				<p>And please, do not hesitate to ask me any questions you may have. <strong>I am here for you</strong>. More work available on request.</p>
 			</div>
